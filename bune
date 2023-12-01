@@ -16,7 +16,7 @@ bot(
     if (!match) return await message.send('*Example : bing da myre*')
     await message.send(
       {
-        text: '⏳',
+        text: '🖕',
         key: message.message.key,
       },
       {},
@@ -25,7 +25,7 @@ bot(
     const res = await bing(match)
     await message.send(
       {
-        text: '✅',
+        text: '☠️',
         key: message.message.key,
       },
       {},
